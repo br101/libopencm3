@@ -180,6 +180,12 @@ LGPL License Terms @ref lgpl_license
 #define GPIO_OSPEED_2MHZ		0x1
 #define GPIO_OSPEED_10MHZ		0x2
 #define GPIO_OSPEED_40MHZ		0x3
+
+/* aliases as for other versions */
+#define GPIO_OSPEED_LOW			0x0
+#define GPIO_OSPEED_MED			0x1
+#define GPIO_OSPEED_FAST		0x2
+#define GPIO_OSPEED_HIGH		0x3
 /**@}*/
 
 /* --- GPIOx_PUPDR values ------------------------------------------- */
